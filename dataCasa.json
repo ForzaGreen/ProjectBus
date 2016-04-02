@@ -1,0 +1,614 @@
+{
+  "format_version": "1.0",
+  "generated_by": "cytoscape-3.1.1",
+  "target_cytoscapejs_version": "~2.1",
+  "data": {
+    "selected": true,
+    "__Annotations": [
+      ""
+    ],
+    "shared_name": "main_islands_japan(1)",
+    "SUID": 20760,
+    "name": "tokyo_only"
+  },
+  "elements": {
+    "nodes": [
+      {
+        "data":{
+          "id":"100",
+          "station_name":"مسجد السنة"
+        },
+        "position":{
+          "x":-76090.51,
+          "y":-335618.33
+        }
+      },
+      {
+        "data":{
+          "id":"101",
+          "station_name":"بين المدن – القرية"
+        },
+        "position":{
+          "x":-76069.97,
+          "y":-335574.83
+        }
+      },
+      {
+        "data":{
+          "id":"102",
+          "station_name":"كلية عين الشق"
+        },
+        "position":{
+          "x":-76006.66,
+          "y":-335409.55
+        }
+      },
+      {
+        "data":{
+          "id":"103",
+          "station_name":"القدس-2 مارس"
+        },
+        "position":{
+          "x":-75988.07,
+          "y":-335395.6
+        }
+      },
+      {
+        "data":{
+          "id":"104",
+          "station_name":"مسجد الحسنى"
+        },
+        "position":{
+          "x":-75824.47,
+          "y":-335444.34
+        }
+      },
+      {
+        "data":{
+          "id":"105",
+          "station_name":"إعدادية التحدي"
+        },
+        "position":{
+          "x":-76089.96,
+          "y":-335654.26
+        }
+      },
+      {
+        "data":{
+          "id":"106",
+          "station_name":"ساحة السراغنة"
+        },
+        "position":{
+          "x":-76018.98,
+          "y":-335696.38
+        }
+      },
+      {
+        "data":{
+          "id":"107",
+          "station_name":"الفداء-محمد السادس"
+        },
+        "position":{
+          "x":-75971.7,
+          "y":-335718.74
+        }
+      },
+      {
+        "data":{
+          "id":"108",
+          "station_name":"الحبوس"
+        },
+        "position":{
+          "x":-76025.59,
+          "y":-335814.99
+        }
+      },
+      {
+        "data":{
+          "id":"109",
+          "station_name":"ساحة النصر"
+        },
+        "position":{
+          "x":-76088.18,
+          "y":-335888.64
+        }
+      },
+      {
+        "data":{
+          "id":"110",
+          "station_name":"بنك المغرب"
+        },
+        "position":{
+          "x":-76182.47,
+          "y":-335928.36
+        }
+      },
+      {
+        "data":{
+          "id":"111",
+          "station_name":"وادي المخازن"
+        },
+        "position":{
+          "x":-76248.78,
+          "y":-335954.84
+        }
+      },
+      {
+        "data":{
+          "id":"112",
+          "station_name":"سباتة"
+        },
+        "position":{
+          "x":-75799.61,
+          "y":-335418.91
+        }
+      },
+      {
+        "data":{
+          "id":"113",
+          "station_name":"أنوال-عبد المومن"
+        },
+        "position":{
+          "x":-76259.91,
+          "y":-335694.43
+        }
+      },
+      {
+        "data":{
+          "id":"114",
+          "station_name":"درب غلف"
+        },
+        "position":{
+          "x":-76315.51,
+          "y":-335700.47
+        }
+      },
+      {
+        "data":{
+          "id":"115",
+          "station_name":"Riviera"
+        },
+        "position":{
+          "x":-76358.06,
+          "y":-335709.06
+        }
+      },
+      {
+        "data":{
+          "id":"116",
+          "station_name":"Pl. Ronsard"
+        },
+        "position":{
+          "x":-76373.71,
+          "y":-335656.1
+        }
+      },
+      {
+        "data":{
+          "id":"117",
+          "station_name":"غاندي-طريق الجديدة"
+        },
+        "position":{
+          "x":-76440.23,
+          "y":-335692.53
+        }
+      },
+      {
+        "data":{
+          "id":"118",
+          "station_name":"أولماس"
+        },
+        "position":{
+          "x":-76478.77,
+          "y":-335719.53
+        }
+      },
+      {
+        "data":{
+          "id":"119",
+          "station_name":"Beauséjour"
+        },
+        "position":{
+          "x":-76567.97,
+          "y":-335670.31
+        }
+      },
+      {
+        "data":{
+          "id":"120",
+          "station_name":"حي المطار"
+        },
+        "position":{
+          "x":-76622.28,
+          "y":-335696.61
+        }
+      },
+      {
+        "data":{
+          "id":"121",
+          "station_name":"أكاديمية التعليم"
+        },
+        "position":{
+          "x":-76683.86,
+          "y":-335701.02
+        }
+      },
+      {
+        "data":{
+          "id":"122",
+          "station_name":"حي الهناء"
+        },
+        "position":{
+          "x":-76704.73,
+          "y":-335738.58
+        }
+      },
+      {
+        "data":{
+          "id":"123",
+          "station_name":"حي الحسني"
+        },
+        "position":{
+          "x":-76842.85,
+          "y":-335678.59
+        }
+      },
+      {
+        "data":{
+          "id":"124",
+          "station_name":"سيدي الخدير"
+        },
+        "position":{
+          "x":-76847.8,
+          "y":-335688.94
+        }
+      },
+      {
+        "data":{
+          "id":"125",
+          "station_name":"سباتة-وادي الذهب"
+        },
+        "position":{
+          "x":-75766.43,
+          "y":-335388.94
+        }
+      },
+      {
+        "data":{
+          "id":"126",
+          "station_name":"مقبرة سباتة"
+        },
+        "position":{
+          "x":-75638.33,
+          "y":-335465.67
+        }
+      },
+      {
+        "data":{
+          "id":"127",
+          "station_name":"السالمية"
+        },
+        "position":{
+          "x":-75503.52,
+          "y":-335368.1
+        }
+      },
+      {
+        "data":{
+          "id":"128",
+          "station_name":"مسجد الهدى"
+        },
+        "position":{
+          "x":-76116.79,
+          "y":-335693.98
+        }
+      }],
+    "edges": [
+      {
+        "data":{
+          "id":"1100",
+          "source":"100",
+          "target":"101",
+          "line_name":"شارع 2 مارس",
+          "company_type": 81
+        }
+      },
+      {
+        "data":{
+          "id":"1101",
+          "source":"101",
+          "target":"102",
+          "line_name":"شارع 2 مارس",
+          "company_type": 81
+        }
+      },
+      {
+        "data":{
+          "id":"1102",
+          "source":"102",
+          "target":"103",
+          "line_name":"شارع 2 مارس",
+          "company_type": 81
+        }
+      },
+      {
+        "data":{
+          "id":"1103",
+          "source":"103",
+          "target":"104",
+          "line_name":"شارع القدس",
+          "company_type": 81
+        }
+      },
+      {
+        "data":{
+          "id":"1104",
+          "source":"104",
+          "target":"112",
+          "line_name":"شارع محمد السادس",
+          "company_type": 81
+        }
+      },
+      {
+        "data":{
+          "id":"1105",
+          "source":"100",
+          "target":"105",
+          "line_name":"شارع 2 مارس",
+          "company_type": 81
+        }
+      },
+      {
+        "data":{
+          "id":"1106",
+          "source":"105",
+          "target":"106",
+          "line_name":"شارع الفداء",
+          "company_type": 81
+        }
+      },
+      {
+        "data":{
+          "id":"1107",
+          "source":"106",
+          "target":"107",
+          "line_name":"شارع الفداء",
+          "company_type": 81
+        }
+      },
+      {
+        "data":{
+          "id":"1108",
+          "source":"107",
+          "target":"108",
+          "line_name":"شارع محمد السادس",
+          "company_type": 81
+        }
+      },
+      {
+        "data":{
+          "id":"1109",
+          "source":"108",
+          "target":"109",
+          "line_name":"شارع محمد السادس",
+          "company_type": 81
+        }
+      },
+      {
+        "data":{
+          "id":"1110",
+          "source":"109",
+          "target":"110",
+          "line_name":"شارع للا الياقوت",
+          "company_type": 81
+        }
+      },
+      {
+        "data":{
+          "id":"1111",
+          "source":"110",
+          "target":"111",
+          "line_name":"شارع باريس",
+          "company_type": 81
+        }
+      },
+      {
+        "data":{
+          "id":"1112",
+          "source":"126",
+          "target":"127",
+          "line_name":"شارع الجولان",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1113",
+          "source":"126",
+          "target":"125",
+          "line_name":"شارع وادي الذهب",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1114",
+          "source":"125",
+          "target":"112",
+          "line_name":"شارع جمال الدرة",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1115",
+          "source":"104",
+          "target":"112",
+          "line_name":"شارع محمد السادس",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1116",
+          "source":"100",
+          "target":"101",
+          "line_name":"شارع 2 مارس",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1117",
+          "source":"101",
+          "target":"102",
+          "line_name":"شارع 2 مارس",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1118",
+          "source":"102",
+          "target":"103",
+          "line_name":"شارع 2 مارس",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1119",
+          "source":"103",
+          "target":"104",
+          "line_name":"شارع القدس",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1120",
+          "source":"100",
+          "target":"105",
+          "line_name":"شارع 2 مارس",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1121",
+          "source":"105",
+          "target":"128",
+          "line_name":"شارع 2 مارس",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1122",
+          "source":"128",
+          "target":"113",
+          "line_name":"شارع أنوال",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1123",
+          "source":"113",
+          "target":"114",
+          "line_name":"شارع أنوال",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1124",
+          "source":"114",
+          "target":"115",
+          "line_name":"شارع أنوال",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1125",
+          "source":"115",
+          "target":"116",
+          "line_name":"Avenue Stendhal",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1126",
+          "source":"116",
+          "target":"117",
+          "line_name":"شارع غاندي",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1127",
+          "source":"117",
+          "target":"118",
+          "line_name":"شارع غاندي",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1128",
+          "source":"118",
+          "target":"119",
+          "line_name":"شارع يعقوب المنصور",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1129",
+          "source":"119",
+          "target":"120",
+          "line_name":"شارع سيدي عبد الرحمان",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1130",
+          "source":"120",
+          "target":"121",
+          "line_name":"شارع سيدي عبد الرحمان",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1131",
+          "source":"121",
+          "target":"122",
+          "line_name":"شارع سيدي عبد الرحمان",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1132",
+          "source":"122",
+          "target":"123",
+          "line_name":"شارع أفغانستان",
+          "company_type": 63
+        }
+      },
+      {
+        "data":{
+          "id":"1133",
+          "source":"123",
+          "target":"124",
+          "line_name":"طريق سيدي الخدير",
+          "company_type": 63
+        }
+      }]
+  }
+}

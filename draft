@@ -1,0 +1,88 @@
+//embed jQuery:
+var script = document.createElement('script');
+script.src = "https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js";
+document.getElementsByTagName('head')[0].appendChild(script);
+
+//get json
+var x, y = {};
+$.ajax({
+    method: "GET",
+    url: "https://cdn.rawgit.com/maxkfranz/934042c1ecc464a8de85/raw"})
+    .done(function(data) {
+        x = JSON.parse(data);
+        //clone x to y:
+        y = JSON.parse(JSON.stringify(x));
+        y == x; //false
+        y === x; //false
+    });
+
+//or:
+//var x2 =  $.ajax({
+//    type: "GET",
+//    url: "https://cdn.rawgit.com/maxkfranz/934042c1ecc464a8de85/raw",
+//    dataType: 'json'
+//});
+//var x = JSON.parse(x2.responseText);
+
+
+
+//nodes
+y.elements.nodes = [];
+for( i=0; i<x.elements.nodes.length; i++ ) {
+    var n = {
+        data: {
+            id: x.elements.nodes[i].data.id,
+            station_name: x.elements.nodes[i].data.station_name
+        },
+        position: x.elements.nodes[i].position, // {x: ,y: } //don't be confused with Xs
+        //selected: x.elements.nodes[i].selected
+    };
+    y.elements.nodes.push(n);
+}
+
+//edges
+y.elements.edges = [];
+for( i=0; i<x.elements.edges.length; i++ ) {
+    var e = {
+        data: {
+            id: x.elements.edges[i].data.id,
+            source: x.elements.edges[i].data.source,
+            target: x.elements.edges[i].data.target,
+            line_name: x.elements.edges[i].data.line_name,
+            company_type: x.elements.edges[i].data.company_type
+        },
+        //selected: x.elements.edges[i].selected
+    };
+    y.elements.edges.push(e);
+}
+
+//copy to clipboard:
+copy(y);
+
+
+//can't without ids. It needs it for edges
+//you don't need "selected". By default false
+
+////template nodes
+//{lb}
+//  "data":{lb}
+//    "{h1}":"{f1}",
+//    "{h2}":"{f2}"
+//  {rb},
+//  "position":{lb}
+//    "{h5}": {f5},
+//    "{h6}": {f6}
+//  {rb}
+//{rb}
+//
+////template edges
+//{lb}
+//  "data":{lb}
+//    "{h1}":"{f1}",
+//    "{h2}":"{f2}",
+//    "{h3}":"{f3}",
+//    "{h4}":"{f4}",
+//    "{h5}": {f5}
+//  {rb}
+//{rb}
+
